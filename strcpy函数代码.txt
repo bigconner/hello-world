@@ -9,5 +9,6 @@ void *strcpy(char Str[],char Str2[]){
 			break; 
 		}
 		i++;
+//本地编辑
 	}
 }
