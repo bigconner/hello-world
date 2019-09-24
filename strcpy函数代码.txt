@@ -1,0 +1,13 @@
+void *strcpy(char Str[],char Str2[]){
+	int i = 0;
+	char *p;
+	p = &Str[0]; 
+	while(1){
+		if(Str2[i]!='\0'){
+			*(p+i) = Str2[i]; 
+		}else{
+			break; 
+		}
+		i++;
+	}
+}
